@@ -1,0 +1,1 @@
+(()=>{"use strict";class r{constructor(r){this.maxCalories=r,this.currentCalories=0}trackCalories(r){this.currentCalories+=r,this.currentCalories>this.maxCalories&&console.log("Max Calories exceeded")}}const s=new r(1520),e=new r(1200);s.trackCalories(500),s.trackCalories(500),s.trackCalories(500),e.trackCalories(300),console.log(e)})();
